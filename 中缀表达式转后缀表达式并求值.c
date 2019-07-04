@@ -8,16 +8,15 @@ int top;
 char s[Maxlenth];
 }Stack;
 
-char Pop(Stack *S);
+char Pop(Stack *S);/**/
 char top(Stack *S);
 int Isempty(Stack *S);
 double Calculate(char *Array,int len);
 void stackToArray(Stack *S,char *ch,int len);
 void Push(Stack *S,char pu);
 void Print(Stack *S);
-void clean(char *A);
+void clean(char *A);/***/
 void check(char *ch);
-
 
 int main()
 {
